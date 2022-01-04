@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background:gray;
+}
+a{
+  text-decoration: none !important;
+}
+
+.seprator{
+  margin-bottom: 30px;
+}
+.btn:hover,.btn:focus,.btn:active, 
+.btn:active:focus:not(:disabled):not(.disabled),#percentage{
+    box-shadow: none!important;
+    outline: 0;
+}
+ 
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  background-color:#4569B2;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 0;
+}
+.logo{
+  font-size:2.5em;
+}
+.brandname{
+  font-size: 2em;
+}
+.card{
+  border-radius: 0;
+}
+
+.btn-mouse{
+  background-color: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-compress{
+  border:none;
+  color: black;
+  border-radius: 30px;
+  padding: 1em;
+  margin:0.3em;
+}
+
+.dropzone{
+  border: none;
+  background-color:#4569B2 ;
+  color :white;
+}
+
+.page-footer{
+  color: white;
+  background-color: #4569B2;
+  box-sizing: border-box;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link{
+  color: white;
+  font-weight: bold;
+}
+
+.verificationfiletype , .verificationpercentage, .compressionProcess{
+  color: red;
+  font-weight: bold;
+}
+
+#downloadbtn{
+  border-radius: 40px;
+  padding: 0.7em;
+  margin:0.3em;
+}
+
+
+.fa {
+
+  margin-right: 8px;
+}
+
+
+#loading {
+position: fixed;
+width: 100%;
+height: 100vh;
+background: #fff url('../img/loader2.gif') no-repeat center center;
+z-index: 9999;
+}
+
+.dz-remove{
+  color: white;
+  background:#DC3545;
+  padding: 2px;
+  border-radius: 20px;
+}
+.dz-remove:hover{
+  color: white;
+  font-weight: bold;
+}
+.dz-image-preview{
+  background-color: #4569b2 !important;
+}
